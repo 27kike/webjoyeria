@@ -1,0 +1,8 @@
+@use '../custom' as *;
+
+@mixin bgImage($url, $color) {
+    background-image: linear-gradient( transparentize($color, .3%) 0%, transparentize($color, .3%) 100% ), url($url);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
