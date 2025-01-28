@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+src/
+build/css/app.css
+package-lock.json
+package.json
+gulpfile.js

@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <!-- Bootstrap 5 -->
-    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="build/css/app.min.css">
     <title>Joyeria estela dorada</title>
 </head>
 <body>
-    <header class="header d-flex justify-content-center align-items-center py-2">
+    <header class="header d-flex justify-content-center align-items-center py-3">
         <div class="container-xl">
             <nav class="navbar header__navegacion d-flex justify-content-center p-0 m-2">  
                 <ul class="list-unstyled d-flex justify-content-around w-100 m-0">
@@ -31,9 +32,153 @@
                 <p class="text-primary">Donde la elegancia se convierte en arte</p>
                 <h2>Bienvenido a Joyeria Estela Dorada</h2>
                 <p>Descubre nuestras joyas exclusivas que combinan diseño innovador con una tradición artesanal inigualable. Cada pieza cuenta una historia de belleza y sofisticación.</p>
-                <a href="#" class="btn btn-primary">Ver colección</a>
+                <a href="#" class="btn header__btn">Ver colección</a>
             </div><!--.header__contenido-->
         </div><!--.container-xl-->
     </header><!--.header-->
+    <div class="container-xl">
+        <section class="destacadas py-3">
+            <div class="destacadas__header text-center">
+                <h2>Piezas Destacadas del Mes</h2>
+                <p>Joyas seleccionadas por su belleza y singularidad, perfectas para cada ocasión especial.</p>
+            </div>
+            <div class="destacadas__piezas mt-4">
+                <div class="destacadas__row">
+                    <div class="destacadas__pieza text-center">
+                        <h3>Anillos De Compromiso</h3>
+                        <p>Simboliza tu amor eterno con nuestros anillos de compromiso, diseñados para capturar el corazón.</p>
+                    </div>
+                    <div class="destacadas__pieza text-center">
+                        <h3>Collares Exclusivos</h3>
+                        <p>Añade un toque de elegancia a tu atuendo con nuestros collares únicos.</p>
+                    </div>
+                    <div class="destacadas__pieza text-center">
+                        <h3>Pendientes De Lujo</h3>
+                        <p>Descubre pendientes que realzan tu belleza con un destello de sofisticación.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container-xl">
+        <div class="testimonial py-3">
+            <div class="testimonial__row">
+                <div class="testimonial__imagen mb-2 mb-md-0">
+                    <img src="build/img/testimonial.jpg" alt="testimonial" class="img-fluid">
+                </div>
+                <div class="testimonial__contenido d-flex flex-column justify-content-around">
+                    <div>
+                        <p class="fs-4 text-bold">Joyería Estela Dorada transformó mi visión en una pieza unica que atesoraré por siempre.</p>
+                    </div>
+                    <div>
+                        <p>Esmeralda Calvario</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separador py-md-5 py-3"></div>
+    <div class="container-xl">
+        <main class="contenido text-center py-3">
+            <h1>Galería De Diseños Exclusivos</h1>
+            <p>Admira la elegancia y el arte en cada una de nuestras piezas de joyería</p>
+            <div class="contenido__galeria">
+                <div class="contenido__row">
+                    <div class="contenido__card">
+                        <div class="card">
+                            <img src="build/img/testimonial.jpg" alt="joyeria" class="card-img-top">
+                            <div class="card-body p-1">
+                                <p class="card-text">Anillo de compromiso</p>
+                            </div>
+                            <div class="card-footer p-1">
+                                <a href="#" class="btn header__btn">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contenido__card">
+                        <div class="card">
+                            <img src="build/img/testimonial.jpg" alt="joyeria" class="card-img-top">
+                            <div class="card-body p-1">
+                                <p class="card-text">Anillo de compromiso</p>
+                            </div>
+                            <div class="card-footer p-1">
+                                <a href="#" class="btn header__btn">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contenido__card">
+                        <div class="card">
+                            <img src="build/img/testimonial.jpg" alt="joyeria" class="card-img-top">
+                            <div class="card-body p-1">
+                                <p class="card-text">Anillo de compromiso</p>
+                            </div>
+                            <div class="card-footer p-1">
+                                <a href="#" class="btn header__btn">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="container-xl">
+        <section class="contacto">
+            <div class="contacto__header">
+                <h2>Contáctanos</h2>
+                <p>Estamos aquí para ayudarte a encontrar la joya perfecta para cada ocasión. ¡Hablemos!</p>
+            </div>
+            <ul class="list-unstyled">
+                <li class="contacto__item py-2 px-1 mb-1">
+                    <p class="contacto__titulo">Atención Al Cliente</p>
+                    <p class="contacto__correo">Correo: atencion@esteladorada.com</p>
+                    <p class="contacto__telefono">+52 33-33-33-33</p>
+                </li>
+                <li class="contacto__item py-2 px-1 mb-1">
+                    <p class="contacto__titulo">Información General</p>
+                    <p class="contacto__correo">Correo: general@esteladorada.com</p>
+                    <p class="contacto__telefono">+52 33-33-33-33</p>
+                </li>
+                <li class="contacto__item py-2 px-1 mb-1">
+                    <p class="contacto__titulo">Prensa</p>
+                    <p class="contacto__correo">Correo: prensa@esteladorada.com</p>
+                    <p class="contacto__telefono">+52 33-33-33-33</p>
+                </li>
+                <li class="contacto__item py-2 px-1 mb-1">
+                    <p class="contacto__titulo">Soporte</p>
+                    <p class="contacto__correo">Correo: soporte@esteladorada.com</p>
+                    <p class="contacto__telefono">+52 33-33-33-33</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <footer class="footer py-3">
+        <div class="container-xl">
+            <div class="footer__informacion">
+                <ul class="list-unstyled footer__menu">
+                    <li class="footer__item">Acerca de Joyeria Estela Dorada</li>
+                    <li class="footer__item">Ayuda</li>
+                    <li class="footer__item">Recursos</li>
+                    <li class="footer__item">Enlaces Adicionales</li>
+                </ul>
+                <hr>
+                <div class="footer__row">
+                    <div class="footer__social d-flex flex-column align-items-center mb-3 mb-md-0 flex-md-row justify-content-md-between">
+                        <a href="#" class="footer__instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="footer__pinterest">
+                            <i class="bi bi-pinterest"></i>
+                        </a>
+                    </div>
+                    <div class="footer__derechos d-flex align-items-center justify-content-center">
+                        <p>Joyeria Estela Dorada 2023, Todos los derechos reservados. Descubre la elegancia que define cada momento especial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
