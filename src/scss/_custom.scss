@@ -1,10 +1,13 @@
 //Colores
 $amarillo: #ffd700;
 $amarillo-claro: #ffffe8;
+$amarillo-oscuro: #816522;
+$amarillo-intenso: #fffeba;
 $gris: #e9e6e1;
 
 $primary: $amarillo;
 $secondary: $amarillo-claro;
+$yellow: $amarillo-oscuro;
 $gray-100: $gris;
 
 //Fuenetes
@@ -18,5 +21,4 @@ $font-size-base: 1.6rem;
 //Espacio
 $spacer: 5rem;
 
-//Grid
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
