@@ -1000,7 +1000,7 @@ img {
     column-gap: 2rem;
   }
 }
- .header__productos-servicios-calidad, .header__productos-servicios-experiencia {
+.header__productos-servicios-calidad, .header__productos-servicios-experiencia, .header__productos-servicios-diseño {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
   backdrop-filter: blur(1rem);
   -webkit-backdrop-filter: blur(1rem);
