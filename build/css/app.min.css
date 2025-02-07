@@ -970,7 +970,7 @@ img {
 }
 
 .header__productos {
-  background-image: linear-gradient(rgba(129, 101, 34, 0.7) 0%, rgba(129, 101, 34, 0.7) 100%), url("../../../build/img/header.jpg");
+  background-image: linear-gradient(rgba(129, 101, 34, 0.7) 0%, rgba(129, 101, 34, 0.7) 100%), url("../../../build/img/header.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
